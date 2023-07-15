@@ -1,0 +1,72 @@
+.container {
+   background-color: rgb(47, 164, 158);
+   color:white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:2rem 5rem;
+   margin-bottom:4.5rem;
+}
+
+.logo, .link {
+    text-decoration: none;
+    color:white;
+}
+
+.logo {
+    font-size: 3.5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap:2rem;
+    font-size:2.8rem;
+}
+
+.container button {
+    display:none;
+}
+
+
+/*******************/
+
+@media (max-width:36rem) {
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .container .navFirstLayer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container button {
+        display: block;
+    }
+
+    .logo {
+        font-size:3rem;
+    }
+
+    /** SHOW LINKS IF BUTTON IS CLICK**/
+    .container .links {
+        align-self: center;
+        flex-direction: column;
+        display:none;
+    }
+
+    .container .links.active {
+        display:flex;
+        margin-top:2rem;
+      
+    }
+    
+}

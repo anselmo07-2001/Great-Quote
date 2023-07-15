@@ -1,0 +1,41 @@
+.quoteView {
+    background-color: rgb(47, 164, 158);
+    border:none;
+    padding:1rem 1.2rem;
+    color:white;
+    font-size:1.1rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.quoteView:hover {
+    background-color: white;
+    color: rgb(47, 164, 158);
+    cursor: pointer;
+}
+
+.btn {
+    border:none;
+    padding:1rem 1.2rem;
+    color:white;
+    font-size:1.1rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btnRemove {
+    background-color: red;
+    color:white;
+}
+
+.btnRemove:hover {
+    color:red;
+    background-color: white;
+}
+
+
+
+
