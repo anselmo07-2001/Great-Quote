@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Great Quote
+A simple CRUD application that uses React.js and Firebase
+
 ## Available Scripts
 
 In the project directory, you can run:
